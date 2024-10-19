@@ -95,6 +95,7 @@ section img {
   font-weight: bold;
   line-height: 25px;
   color: #251d20;
+  font-family: "Roboto Serif", serif;
 }
 
 .footer p {
@@ -194,11 +195,10 @@ section {
   }
 }
 
-.menu li a:hover{
+.menu li a:hover {
   text-decoration: underline;
 }
 
 .menu li a {
   text-decoration: none;
 }
-

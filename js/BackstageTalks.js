@@ -36,3 +36,13 @@ window.addEventListener('scroll', () => {
   }
 });
 
+function boldText(element) {
+  
+  const allLinks = document.querySelectorAll('.listLink');
+  allLinks.forEach(link => {
+      link.style.fontWeight = 'normal'; // Reset to normal
+  });
+
+  
+  element.style.fontWeight = 'bold';
+};
